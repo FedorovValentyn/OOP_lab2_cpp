@@ -4,4 +4,8 @@ project(OOP_labs)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(OOP_labs main.cpp
-        Vector.h)
+        Vector.h
+        test.cpp
+        test1.cpp
+        test1.h
+)

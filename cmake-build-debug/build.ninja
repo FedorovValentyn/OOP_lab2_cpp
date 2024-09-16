@@ -55,6 +55,18 @@ build CMakeFiles/OOP_labs.dir/main.cpp.obj: CXX_COMPILER__OOP_labs_unscanned_Deb
   OBJECT_DIR = CMakeFiles\OOP_labs.dir
   OBJECT_FILE_DIR = CMakeFiles\OOP_labs.dir
 
+build CMakeFiles/OOP_labs.dir/test.cpp.obj: CXX_COMPILER__OOP_labs_unscanned_Debug D$:/OOP$ labs/test.cpp || cmake_object_order_depends_target_OOP_labs
+  DEP_FILE = CMakeFiles\OOP_labs.dir\test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OOP_labs.dir
+  OBJECT_FILE_DIR = CMakeFiles\OOP_labs.dir
+
+build CMakeFiles/OOP_labs.dir/test1.cpp.obj: CXX_COMPILER__OOP_labs_unscanned_Debug D$:/OOP$ labs/test1.cpp || cmake_object_order_depends_target_OOP_labs
+  DEP_FILE = CMakeFiles\OOP_labs.dir\test1.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OOP_labs.dir
+  OBJECT_FILE_DIR = CMakeFiles\OOP_labs.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OOP_labs
@@ -63,7 +75,7 @@ build CMakeFiles/OOP_labs.dir/main.cpp.obj: CXX_COMPILER__OOP_labs_unscanned_Deb
 #############################################
 # Link the executable OOP_labs.exe
 
-build OOP_labs.exe: CXX_EXECUTABLE_LINKER__OOP_labs_Debug CMakeFiles/OOP_labs.dir/main.cpp.obj
+build OOP_labs.exe: CXX_EXECUTABLE_LINKER__OOP_labs_Debug CMakeFiles/OOP_labs.dir/main.cpp.obj CMakeFiles/OOP_labs.dir/test.cpp.obj CMakeFiles/OOP_labs.dir/test1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OOP_labs.dir
